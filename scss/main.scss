@@ -1,12 +1,17 @@
 @import 'custom';
 @import 'navbar';
+@import 'projetos';
 @import 'intro';
 @import 'variables';
 @import 'welcome';
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
   box-sizing: border-box;
 }
 
