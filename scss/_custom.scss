@@ -1,0 +1,11 @@
+@import 'variables';
+
+.btn-custom {
+  background-color: $clr-base;
+  color: $clr-light;
+
+  &:hover {
+    background-color: #333;
+    color: $clr-light;
+  }
+}
