@@ -7,11 +7,34 @@
   color: #ffffff;
 }
 
+.form {
+  padding: 6rem 0;
+  background-color: #00A388;
+  color: #ffffff;
+}
+.form h2 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+.form input {
+  padding: 1.5rem 0;
+}
+.form input:placeholder-shown {
+  padding-left: 1rem;
+}
+.form .form-btn {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+}
+.form .form-btn:hover {
+  color: #000000;
+}
+
 .navbar {
   background-color: #00A388;
-}
-.navbar .nav-item {
-  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
 }
 .navbar .nav-link {
   font-size: 1.5rem;
@@ -67,6 +90,23 @@
 .intro .logo .intro__sub {
   font-size: 1rem;
   text-transform: uppercase;
+}
+
+.map {
+  margin: 0px;
+  padding: 0px;
+}
+.map iframe {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 450px;
+}
+
+footer {
+  padding: 2rem;
+  background-color: #ffffff;
+  text-align: center;
 }
 
 .welcome {

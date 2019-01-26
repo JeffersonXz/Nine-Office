@@ -1,0 +1,31 @@
+@import 'variables';
+
+.form {
+  padding: 6rem 0;
+  background-color: $clr-base;
+  color: $clr-light;
+
+  h2 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  input {
+    padding: 1.5rem 0;
+  }
+
+  input:placeholder-shown {
+    padding-left: 1rem;
+  }
+
+  .form-btn {
+    font-size: 3rem;
+    font-weight: 400;
+    color: $clr-light;
+    text-decoration: none;
+
+    &:hover {
+      color: $clr-dark;
+    }
+  }
+}

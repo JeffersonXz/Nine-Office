@@ -2,11 +2,7 @@
 
 .navbar {
   background-color: $clr-base;
-
-  .nav-item {
-    border-right: 1px solid $clr-dark;
-  }
-
+  border-bottom: 1px solid $clr-dark;
   .nav-link {
     font-size: 1.5rem;
     font-weight: 500;
