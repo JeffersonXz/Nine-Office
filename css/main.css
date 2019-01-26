@@ -32,6 +32,37 @@
   color: #000000;
 }
 
+.showcase {
+  height: 600px;
+  background: url(../imagens/intro.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.showcase .logo {
+  text-align: center;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5rem 7rem;
+  box-shadow: 8px 9px 5px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+}
+.showcase .logo .intro__logo {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+.showcase .logo .intro__logo span {
+  color: #00A388;
+  font-size: 6rem;
+}
+.showcase .logo .intro__sub {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
 .navbar {
   background-color: #00A388;
   border-bottom: 1px solid #000000;
@@ -47,6 +78,45 @@
 }
 .navbar .active {
   color: #000000 !important;
+}
+
+.about-section {
+  padding: 6rem 0;
+}
+.about-section .about-title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.about-section img {
+  margin-bottom: 2rem;
+}
+.about-section h4 {
+  font-size: 1.3rem;
+}
+.about-section p {
+  font-size: 0.9rem;
+}
+.about-section .about-date {
+  font-size: 0.8rem;
+  color: #00A388;
+}
+.about-section .about-list {
+  list-style: none;
+}
+.about-section .about-list li {
+  margin-bottom: 0.7rem;
+}
+.about-section .about-list a {
+  color: #000000;
+}
+.about-section .about-list a:hover {
+  color: #00A388;
+  text-decoration: none;
+}
+.about-section .fas {
+  margin-right: 1rem;
+  color: #00A388;
 }
 
 .projetos {
@@ -140,7 +210,8 @@ body {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=main.css.map */

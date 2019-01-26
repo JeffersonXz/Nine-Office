@@ -1,0 +1,49 @@
+@import 'variables';
+
+.about-section {
+  padding: 6rem 0;
+
+  .about-title {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+
+  img {
+    margin-bottom: 2rem;
+  }
+
+  h4 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: .9rem;
+  }
+
+  .about-date {
+    font-size: .8rem;
+    color: $clr-base;
+  }
+
+  .about-list {
+    list-style: none;
+
+    li {
+      margin-bottom: .7rem;
+    }
+
+    a {
+      color: $clr-dark;
+      &:hover {
+        color: $clr-base;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .fas {
+    margin-right: 1rem;
+    color: $clr-base;
+  }
+}

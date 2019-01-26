@@ -1,6 +1,8 @@
 @import 'custom';
 @import 'form';
+@import 'header';
 @import 'navbar';
+@import 'pages';
 @import 'projetos';
 @import 'intro';
 @import 'map';
@@ -22,5 +24,6 @@ body {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
