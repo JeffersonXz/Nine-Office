@@ -272,6 +272,58 @@ footer {
   color: #00A388;
 }
 
+.services {
+  padding: 7rem 0;
+}
+.services .title {
+  margin-bottom: 3rem;
+}
+.services-box .services-subtitle {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.services-box span {
+  color: #00A388;
+}
+.services-box p {
+  margin-bottom: 2rem;
+}
+
+.office {
+  padding: 7rem 0;
+  background: url(../../imagens/background-projetos.jpg);
+  background-size: cover;
+  color: #ffffff;
+}
+.office h5 {
+  font-weight: 700;
+}
+.office p {
+  margin-bottom: 2rem;
+}
+
+.feacture {
+  padding: 7rem 0;
+}
+.feacture-list {
+  list-style: none;
+}
+.feacture-list li {
+  margin-bottom: 0.7rem;
+}
+.feacture-list a {
+  color: #000000;
+}
+.feacture-list a:hover {
+  color: #00A388;
+  text-decoration: none;
+}
+.feacture-list .fas {
+  margin-right: 1rem;
+  color: #00A388;
+}
+
 * {
   margin: 0px;
   padding: 0px;

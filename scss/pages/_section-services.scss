@@ -1,0 +1,68 @@
+@import "../variables";
+
+.services {
+  padding: 7rem 0;
+
+  // Title
+  .title {
+    margin-bottom: 3rem;
+  }
+
+  // Box
+  &-box {
+    // Subtitle
+    .services-subtitle {
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    span {
+      color: $clr-base;
+    }
+
+    p {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.office {
+  padding: 7rem 0;
+  background: url(../../imagens/background-projetos.jpg);
+  background-size: cover;
+  color: $clr-light;
+
+  h5 {
+    font-weight: 700;
+  }
+
+  p {
+    margin-bottom: 2rem;
+  }
+}
+
+.feacture {
+  padding: 7rem 0;
+
+  &-list {
+    list-style: none;
+
+    li {
+      margin-bottom: 0.7rem;
+    }
+
+    a {
+      color: $clr-dark;
+      &:hover {
+        color: $clr-base;
+        text-decoration: none;
+      }
+    }
+
+    .fas {
+      margin-right: 1rem;
+      color: $clr-base;
+    }
+  }
+}
