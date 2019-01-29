@@ -1,18 +1,23 @@
-@import 'custom';
-@import 'form';
-@import 'header';
-@import 'navbar';
-@import 'section-about';
-@import 'projetos';
-@import 'intro';
-@import 'map';
-@import 'variables';
-@import 'welcome';
+// Import Componentes
+@import "componentes/custom";
+@import "componentes/form";
+@import "componentes/header";
+@import "componentes/intro";
+@import "componentes/map";
+@import "componentes/navbar";
+@import "componentes/projetos";
+@import "componentes/welcome";
+
+// Import Pages
+@import "pages/section-about";
+
+// Import Variables
+@import "variables";
 
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 html {
@@ -20,7 +25,7 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 img {
