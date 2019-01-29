@@ -272,6 +272,59 @@ footer {
   color: #00A388;
 }
 
+.offers {
+  padding: 7rem 0;
+}
+.offers-box {
+  display: flex;
+}
+.offers-img {
+  margin-right: 1.5rem;
+}
+.offers-content h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.offers-content p {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.space {
+  padding: 7rem 0;
+  background: url(../../imagens/background-projetos.jpg);
+  background-size: cover;
+  color: #ffffff;
+}
+.space h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.space p {
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.info {
+  padding: 7rem 0;
+}
+.info-box {
+  display: flex;
+}
+.info-number {
+  font-size: 2rem;
+  color: #00A388;
+  margin-right: 1rem;
+}
+.info-content span {
+  font-size: 1rem;
+  color: #00A388;
+}
+.info-content p {
+  font-size: 0.8rem;
+}
+
 .services {
   padding: 7rem 0;
 }
