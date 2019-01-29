@@ -83,11 +83,6 @@
 .about-section {
   padding: 6rem 0;
 }
-.about-section .about-title {
-  font-size: 4rem;
-  font-weight: 700;
-  margin-bottom: 2rem;
-}
 .about-section img {
   margin-bottom: 2rem;
 }
@@ -116,6 +111,87 @@
 }
 .about-section .fas {
   margin-right: 1rem;
+  color: #00A388;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.equipe {
+  padding: 7rem 0;
+  background: url(../imagens/background-projetos.jpg);
+  background-size: cover;
+  color: #ffffff;
+}
+.equipe h2 {
+  margin-bottom: 2rem;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.equipe .equipe-imagen {
+  margin-bottom: 2rem;
+}
+.equipe .equipe-name {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+.equipe .equipe-name:hover {
+  color: #00A388;
+}
+
+.valores {
+  padding: 7rem 0;
+}
+.valores .box {
+  display: flex;
+}
+.valores .box h4 {
+  font-size: 2rem;
+  color: #00A388;
+  margin-right: 1rem;
+}
+.valores .box-content h5 {
+  font-size: 1rem;
+  color: #00A388;
+}
+.valores .box-content p {
+  font-size: 0.9rem;
+}
+.valores .valores-list {
+  list-style: none;
+}
+.valores .valores-list li {
+  margin-bottom: 0.7rem;
+}
+.valores .valores-list a {
+  color: #000000;
+}
+.valores .valores-list a:hover {
+  color: #00A388;
+  text-decoration: none;
+}
+.valores .valores-list .fas {
+  margin-right: 1rem;
+  color: #00A388;
+}
+.valores .cliente-box span {
+  color: #00A388;
+  margin-right: 1rem;
+  font-size: 1.3rem;
+}
+.valores .cliente-box a {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  color: #000000;
+}
+.valores .cliente-box a:hover {
   color: #00A388;
 }
 
@@ -177,6 +253,7 @@ footer {
   padding: 2rem;
   background-color: #ffffff;
   text-align: center;
+  border-top: 1px solid #000000;
 }
 
 .welcome {
